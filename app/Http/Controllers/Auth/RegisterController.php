@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
-    // Exibir a página de registro
     public function index()
     {
         return view('authentication.auth');
